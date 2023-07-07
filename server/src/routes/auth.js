@@ -3,7 +3,7 @@ const router = express.Router()
 
 router.post('/Register',(req,res)=>{
     console.log(req.body);
-    res.send("This is Registeration page")
+    res.send("This is Registration page")
 })
 
 router.post('/Login',(req,res) => {
